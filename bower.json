@@ -1,0 +1,26 @@
+{
+  "name": "charedible",
+  "version": "1.0.0",
+  "authors": [
+    "Charles Shin <cshin3@uci.edu>",
+    "Kiran Gunasekaran <kirangunasekaran@yahoo.com>",
+    "Michelle Wong <mmwong2@uci.edu>"
+  ],
+  "description": "platform to connect charity organization to small businesses",
+  "main": "index.html",
+  "keywords": [
+    "charity",
+    "food"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
