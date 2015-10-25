@@ -1,7 +1,7 @@
 main.controller('signupCtrl', ['$scope','$state', function ($scope, $state) {
     $scope.data = {
-        username: "user",
-        password: "pass"
+        username: "cshin3@uci.edu",
+        password: "12345678"
     };
 
     $scope.random = function () {

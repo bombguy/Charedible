@@ -1,11 +1,10 @@
-var main = angular.module('charedible',['ionic', 'backand'])
+var main = angular.module('charedible',['ionic'])
 
-    .config(['$stateProvider','$urlRouterProvider', 'BackandProvider', function($stateProvider, $urlRouterProvider, BackandProvider) {
-        $urlRouterProvider.otherwise('/home');
+    .config(['$stateProvider','$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
+        //$urlRouterProvider.otherwise('/home');
 
-        BackandProvider.setAppName('charedible');
-        //BackandProvider.setSignUpToken('86b1c1bc-565e-4008-811a-04342b4e82ac');
-        BackandProvider.setAnonymousToken('e2acbd32-69e0-4b01-90ff-c5b5f1263dcb');
+        //Connect to Parse
+        Parse.initialize("RHG3LzmUb4uICa75WAoSE5OEOUMaQ1EYjMJnH9AU", "o9qaHXKKJa4sMsIUjSYaCHc0kw2rTG4AUjP2Jquo");
 
         var signup = {
             url: '/signup',
