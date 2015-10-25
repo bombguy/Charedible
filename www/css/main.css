@@ -1,0 +1,25 @@
+body{
+	background-color:#111;
+
+}
+
+.nav a{
+	color:#fff;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0px;
+	text-transform: uppercase;
+	display: inline;
+}
+
+.jumbotron{
+	height:400px;
+	background-image: url('http://i59.tinypic.com/vnjvhl.jpg');
+}
+
+.learn-more h2{
+	color:#fff;
+}
+.learn-more li{
+	color:#fff;
+}
